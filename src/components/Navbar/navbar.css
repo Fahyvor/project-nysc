@@ -1,0 +1,11 @@
+.nav-links {
+    width: 45%;
+}
+
+.contact-container {
+    border: 1px solid green;
+}
+
+a {
+    cursor: pointer;
+}

@@ -1,0 +1,26 @@
+.homepage-body {
+    background-image: url('../../assets/backgroundImage.jpeg');
+    height: 78vh;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin: auto;
+}
+
+.homepage-shadow {
+    background-color: rgba(5, 46, 22, 0.6);
+    height: 78vh;
+}
+
+.register {
+    border: 1px solid white;
+}
+
+@media screen and (max-width: 800px) {
+    .homepage-body {
+        height: 100vh;
+    }
+
+    .homepage-shadow {
+        height: 100vh;
+    }
+}
